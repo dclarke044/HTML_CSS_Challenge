@@ -1,8 +1,10 @@
 body {
-    padding: 0;
+    padding: 10px;
     margin: 0;
+    
   }
-  
+
+
   #map,
   body,
   html {
@@ -45,21 +47,39 @@ body {
   .legend .max {
     float: right;
   }
-  
-  h1 {
+
+  .row {
+    float: center;
+  }
+
+  h2 {
     text-align: center;
   }
 
-  .navbar a {
-    color: #fff !important;
+  .navbar-brand {
+    color: rgb(14, 90, 67);
+    /* padding-left: 20px; */
+  }
+
+  .navbar-brand a {
+    padding-left: 20px;
+  }
+
+  .row {
+    background: rgba(235, 233, 233, 0.8);
   }
   
-  .navbar {
-    border-bottom: 3px solid orangered;
+  .navbar a {
+    color: rgb(14, 7, 7) !important;
   }
+  
+  .card-title {
+    color: rgb(14, 90, 67);
+    padding-top: 15px;
+  } 
   
   a:hover {
-    color: orangered !important;
+    color: rgb(99, 104, 116) !important;
   }
   
   code {
@@ -75,30 +95,25 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-  
+
   .container {
     flex: 1;
   }
-  
-  .orange-btn {
-    background-color: rgb(144, 239, 240);
-    border: 1px solid black;
-  }
-  
+ 
   .donate-btn:hover {
     background-color: black;
   }
   
-  .home-card {
+  /* .home-card {
     border: 1px solid black;
-  }
+  } */
   
   .card-footer {
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    border-top: 3px solid rgb(144, 239, 240);
+    border-top: 5px solid rgb(144, 239, 240);
   }
   
   /* Menu Button */
@@ -109,3 +124,9 @@ body {
     right: 35px;
     cursor: pointer;
   }
+
+/* Text Wrapping */
+ #description-img {
+    float: left;
+  }
+
