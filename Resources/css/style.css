@@ -57,11 +57,12 @@ body {
     padding-top: 15px;
   }
   
-  /* .home-card {
-    padding-left: 20px;
+  .home-card {
+    margin-left: 40px;
+    background-color: white;
   }
 
-  .home-card-v {
+  /* .home-card-v {
     padding-right: 20px;
   } */
 
