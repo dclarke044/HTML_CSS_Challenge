@@ -4,48 +4,8 @@ body {
     
   }
 
-
-  #map,
-  body,
   html {
     height: 100%;
-  }
-  .leaflet-popup-content {
-    text-align: center;
-  }
-  
-  /* CSS from the Leaflet-Choropleth documentation */
-  .legend {
-    padding: 6px 8px;
-    font: 12px Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #555;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .legend ul {
-    padding: 0;
-    margin: 0;
-    clear: both;
-    list-style-type: none;
-  }
-  
-  .legend li {
-    display: inline-block;
-    width: 30px;
-    height: 22px;
-  }
-  
-  .legend .min {
-    float: left;
-    padding-bottom: 5px;
-  }
-  
-  .legend .max {
-    float: right;
   }
 
   .row {
@@ -54,27 +14,43 @@ body {
 
   h2 {
     text-align: center;
+    color: white;
   }
 
   .navbar-brand {
-    color: rgb(14, 90, 67);
-    /* padding-left: 20px; */
+    background-color: #0BADA6;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
   }
 
-  .navbar-brand a {
+  /* .navbar-brand a {
     padding-left: 20px;
-  }
+    padding-right: 20px;
+  } */
 
   .row {
     background: rgba(235, 233, 233, 0.8);
   }
-  
+
   .navbar a {
     color: rgb(14, 7, 7) !important;
   }
   
+/* https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+/* Show the dropdown menu on hover */
+  .nav-dropdown:hover .dropdown-menu {
+    display: inline;
+  }  
+    
+  .navbar-nav{
+    padding-right: 60px;
+  }
+
   .card-title {
-    color: rgb(14, 90, 67);
+    color: #0BADA6;
     padding-top: 15px;
   } 
   
@@ -87,6 +63,28 @@ body {
     white-space: pre-wrap;
     font-size: 18px;
   }
+
+  .dropdown-menu {
+    position: absolute;
+    /* top: 80%; */
+    left: 80%;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgba(235, 233, 233, 0.8);
+  }
   
   /* Sticky footer using flexbox */
   /* https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
@@ -97,23 +95,15 @@ body {
   }
 
   .container {
-    flex: 1;
+    flex: 1
   }
  
-  .donate-btn:hover {
-    background-color: black;
-  }
-  
-  /* .home-card {
-    border: 1px solid black;
-  } */
-  
   .card-footer {
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    border-top: 5px solid rgb(144, 239, 240);
+    border-top: 5px solid #0BADA6;
   }
   
   /* Menu Button */
