@@ -17,6 +17,10 @@ body {
     color: white;
   }
 
+  h2:hover {
+    color: rgb(99, 104, 116);
+  }
+
   .navbar-brand {
     background-color: #0BADA6;
     padding-bottom: 0px;
