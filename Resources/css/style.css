@@ -1,7 +1,6 @@
 body {
     padding: 10px;
     margin: 0;
-    
   }
 
   html {
@@ -13,8 +12,21 @@ body {
   }
 
   h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-style: bold;
     text-align: center;
     color: white;
+  }
+
+  p {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-style: bold;
   }
 
   .navbar-brand {
